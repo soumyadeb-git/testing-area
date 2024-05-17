@@ -23,7 +23,7 @@ jobs:
           pip install requests beautifulsoup4
       
       - name: Run Python script
-        run: python data1.py
+        run: python data.py
 
       - name: Commit changes
         run: |
