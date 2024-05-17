@@ -1,0 +1,31 @@
+With Python
+using "pip install autoscraper" technique and beautifulsoup, fetch data from a https://www.karmasandhan.com/post-sitemap.xml and get 10 latest articles data and store it on a seperate JSON file (Only: URL, Last Updated).
+
+
+add a function that after code end the another python code will run automatically, without any human input.
+
+With python
+
+using "pip install autoscraper" technique and beautifulsoup.
+scrap data from https://www.karmasandhan.com/sitemap 
+Find div with class="aioseo-html-post-sitemap" 
+and add last 10 articles data on a JSON: post name on a 'post_title' and post url on a 'post_url'
+
+add a function: 
+that will fetch data from that JSON file tag: {post_url}
+scrap data from this: 
+Get span with class="aioseo-breadcrumb" [except "Home" and "{Post Title}"]
+and create a seperate JSON file. and store: {category},{last date}, {Title}
+
+
+add a function: do not store URL, and add a function that will check and analyze the Title and only add a specific sections from the title: till with "Recruitment 2024", "Notification", "Admit Card 2024", "Result".
+
+add a tag on JSON file: {Category}: add a function that will analyse the title, if the title contain: "Recruitment 2024" then write it as a "Recruitment" on the tag data or if the title contain: "Notification" then write it as a "Recruitment" on the tag data, or if the title contain: "Admit Card 2024" then write it as a "Admit Card" on the tag data, on the tag data, or if the title contain: "Result" then write it as a "Result" on the tag data.
+
+
+add a proxy while fetching data from websites.
+I have proxy list saved on my file: proxy.txt
+
+create a loop function to get a Proxy from that list at a time store it on the variable and then use that variable IP address to scrap data.  If the IP did not response until 3 sec then change the IP to new one.
+and check if it uses data fetching through proxy or not.
+and prinf the variable IP data.
